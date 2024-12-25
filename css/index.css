@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ........................icone....................... */
+
+.ri-layout-grid-fill{
+    color: white;
+}
+.ri-mail-unread-fill{
+    color: white;
+}
+.ri-notification-2-fill{
+    color: white;
+}
+
+/* ........................icone end....................... */
