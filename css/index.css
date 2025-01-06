@@ -6,14 +6,16 @@
 
 /* ........................icone....................... */
 
-.ri-layout-grid-fill{
-    color: white;
-}
-.ri-mail-unread-fill{
-    color: white;
-}
-.ri-notification-2-fill{
-    color: white;
-}
 
 /* ........................icone end....................... */
+
+.sidebar{
+    width:300px;
+    transition: all 0.5s;
+}
+.main{
+    height: 100vh;
+}
+.hideside{
+    width:50px;
+}
