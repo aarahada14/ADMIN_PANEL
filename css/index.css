@@ -5,7 +5,10 @@
 }
 
 /* ........................icone....................... */
-
+.ri-more-2-fill{
+    font-size: 20px;
+    color: #6c7293;
+}
 
 /* ........................icone end....................... */
 
@@ -18,4 +21,18 @@
 }
 .hideside{
     width:50px;
+}
+
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.6rem 1.17rem;
+    line-height: 1.25;
+}
+.img-xs{
+    width: 35px;
+    height: 35px;
 }
