@@ -5,64 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ADMIN PANEL</title>
 
-    <!-- .............................LINK............................. -->
+<!-- .............................LINK............................. -->
      <link rel="stylesheet" href="css/index.css">
      <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
      <link rel="stylesheet" href="fonts/remixicon.css">
 </head>
 
-
-
-
-<body>
-
-
+<body class="bg-black">
+<div class="main d-flex">
 <!-- ................................NAVBAR START................................ -->
-<body>
-  <div class="main d-flex border border-danger">
-      <nav class="sidebar  p-3 bg-dark border-body text-white" data-bs-theme="dark">
+    <nav class="sidebar  p-3 bg-dark border-body text-white" data-bs-theme="dark">
         <div class="sidebar-brand-wrapper">
           <a href="" class="sidebar-brand brand-logo">
             <p class="fs-2 text-center fw-bold">CORONA</p>
           </a>
         </div>
-       
-        <ul class="nav">
-          <li class="nav-item profile">
-            <div class="profile border">
-              <div class="profile-pic">
-                <img src="img/face15.jpg" class="rounded-circle img-xs" alt="">
-              </div>
-            </div>
-            <div class="profile-n border">
-              <h5 class="mb-0 font-weight-normal">Henry Klein</h5>
-              <span>Gold Member</span>
-            </div>
-            <div class="profile border">
-              <div class="profile-pic">
-                <img src="img/face15.jpg" class="rounded-circle img-xs" alt="">
-              </div>
-            </div>
-            <div class="profile-n border">
-              <h5 class="mb-0 font-weight-normal">Henry Klein</h5>
-              <span>Gold Member</span>
-            </div>
-            <a href="#" id="profile-dropdown" data-bs-toggle="dropdown" aria-expanded="true" class="text-decoration-none">
-              <i class="ri-more-2-fill"></i>
-            </a>
-          </li>
-          <li class="nav-item nav-category"></li>
-          <li class="nav-item menu-item"></li>
-          <li class="nav-item menu-item"></li>
-          <li class="nav-item menu-item"></li>
-          <li class="nav-item menu-item"></li>
-          <li class="nav-item menu-item"></li>
-        </ul>
       </nav>
 
-      <div class="sub-main border w-100"> 
-          <div class="navbar w-100  bg-dark border-bottom border-body" data-bs-theme="dark">
-            <div class="container-fluid">
+
+
+<div class="sub-main border w-100"> 
+    <div class="navbar w-100  bg-dark border-bottom border-body" data-bs-theme="dark">
               <nav class="navbar p-0  d-flex flex-row navbar-expand-lg bg-body-tertiary w-100">
                       <button class="menu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                           <span class="navbar-toggler-icon"></span>
@@ -74,70 +37,77 @@
                             </from>
                         </li>
                       </ul>
-                      <ul class="navbar-nav navbar-nav-right border">
-                          <li class="nav-item dropdown d-none d-lg-block">
-                            <a href="" class="nav-link btn btn-success">+Create New Project</a>
-                          </li>
-                          <li class="nav-item nav-setting d-none d-lg-block text-white">ws</li>
-                          <li class="nav-item dropdown border-left text-white">fdxgb</li>
-                          <li class="nav-item dropdown border-left text-white">fsd</li>
-                          <li class="nav-item dropdown text-white">afg</li>
-                      </ul>
-
-
-
-
-
-
-
-<!--                     
-                    <form class="d-flex" role="search">
-                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                      <button class="btn btn-success" type="submit">+Create New Project</button>
-                    </form>
-                    
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                          <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown
-                          </a>
-                          <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                          </ul>
-                        </li>
-                      </ul>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
                       
-                    </div>  -->
-                  
+                    <div class="collapse navbar-collapse d-flex justify-content-end align-items-end" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                          <button class="btn btn-success w-75" type="submit">+Create New Project</button>
+                          <li class="nav-item">
+                          <a class="nav-link active border-end" aria-current="page" href="#"><i class="ri-microsoft-fill fs-5 i-color px-3"></i></a>
+                          </li>
+                          <li class="nav-item">
+                          <a class="nav-link border-end" href="#"><i class="ri-mail-unread-fill fs-5 i-color px-3"></i></a>
+                          </li>
+                          <li class="nav-item">
+                          <a class="nav-link disabled" aria-disabled="true"><i class="ri-notification-3-fill fs-5 i-color px-3"></i></a>
+                          </li>
+                          <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Dropdown
+                          </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                          </li>
+                        </ul>
+                    </div>             
                 </nav>
+          </div>       
+<!-- ......................................NAVBAR END........................................ -->
+
+
+<!-- ......................................SECTION START........................................ -->
+<section style="margin-top: 50px;">
+  <div class="container-fluid">
+    <div class="row border gy-3">
+      <div class="col-3 border">
+        <div class="card">
+          <div class="card-body bg-dark">
+            <div class="row">
+              <div class="col-9">
+                <div class="d-flex align-items-center align-self-start text-white">
+                  <h3>$12.34</h3>
+                  <p class="text-success ml-2 mb-0 font-weight-medium">+3.5%</p>
+                </div>
               </div>
+              <div class="col-3">
+                <div class="icon icon-box-success"></div>
+              </div>
+            </div>
           </div>
         </div>
+      </div>
+      <div class="col-3 border">dvAZS</div>
+      <div class="col-3 border">dsfd</div>
+      <div class="col-3 border">GSVd</div>
+    </div>
   </div>
-<!-- ................................NAVBAR START................................ --> 
+</section>
+<!-- ......................................SECTION END........................................ -->        
 
 
 
 
-  
 
+
+</div>
+</div>
+</body>
 
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -149,6 +119,6 @@
 
   
 
-</body>
+
 
 </html>
