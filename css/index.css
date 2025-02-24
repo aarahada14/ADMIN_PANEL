@@ -42,6 +42,44 @@
 
 
 
+.icon.icon-box-success {
+    width: 40px;
+    height: 37px;
+    background: rgba(0, 210, 91, 0.11);
+    border-radius: 7px;
+    color: #0eb154;
+}
+.icon.icon-box-danger {
+    width: 40px;
+    height: 37px;
+    background: rgba(252, 66, 74, 0.11);
+    border-radius: 7px;
+    color: #fc424a;
+}
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.preview-icon {
+    width: 42px;
+    height: 42px;
+    text-align: center;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    color: white;
+}
+
+.text-c{
+    color: #6c7293
+}
+
+
+
 
 
 
